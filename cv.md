@@ -2,6 +2,7 @@
 Renata Malinina
 
 
+![my photo](https://i.ibb.co/2YmKsXy/e0f1-Ti-Lpq-Ys.jpg)
 ## Contact
 * +375293686925 - phone number (preferable)
 * malinina.renata98@gmail.com - email
