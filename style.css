@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("assets/fonts/RobotoThin.ttf");
+  font-weight: 100;
+  }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("assets/fonts/RobotoRegular.ttf");
+  font-weight: 300;
+  }
+
+* {
+  box-sizing: border-box;
+  }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.header__avatar {
+  height: 220px;
+  width: auto;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+
+.main {
+  display: flex;
+}
+
+.container {
+  width: 40%;
+  background-color: rgba(147, 152, 157, 0.213);
+  padding: 0 50px 0 70px;
+  border-bottom: 5px solid white;
+}
+
+figure {
+  text-align: center;
+}
+
+.container-main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.header__title {
+  padding: 0 50px;
+}
+
+.header__subtitle {
+  padding: 0 50px;
+}
+
+.contacts-info, .courses-info, .languages-info {
+  list-style: none;
+  padding: 0;
+}
+
+.code__sample {
+  border: 3px solid rgba(147, 152, 157, 0.213);
+}
+
+.link__cv {
+  text-decoration: none;
+}
+
+li {
+  line-height: 1.5;
+}
+
+footer {
+ background-color: rgba(147, 152, 157, 0.213);
+}
+
+.footer__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__github {
+  display: block;
+  margin-right: 10px; 
+  text-decoration: none;
+}
+
+.footer__text{
+  display: flex;
+  align-items: center;
+}
+
+.footer__image{
+  width: 70px;
+  margin: 0 10px;
+}
+
+.footer__link {
+  margin-right: 10px;
+  text-decoration: none;
+}
