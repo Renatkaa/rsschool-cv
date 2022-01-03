@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>cv</title>
 </head>
 <body>
-    <p class="intro">Hello gorg</p>
+    <div class="wrapper">
+      <header class="header">
+          <div class="container">
+              <figure class="main__photo">
+                  <img src="image.jpg" class="header__avatar" alt="my photo">
+              </figure>
+          </div>
+          <div class="column_header">
+            <h1 class="header__title">Renata Malinina</h1>
+            <h3 class="header__subtitle">Front-end developer</h3>
+        </div>
+      </header>
+      <main class="main">
+          <div class="container">
+              <section class="contacts">
+                  <h2 class="container-title">Contacts</h2>
+                  <ul class="contacts-info">
+                      <li>malinina.renata98@gmail.com - email</li>
+                      <li>Renata Malinina (@Renatkaa) - discord RS school</li>
+                  </ul>  
+              </section>
+              <section class="educations">
+                  <h2 class="educations-title">Educations</h2>
+                  <div class="masters degree">
+                      <div class="degree"><b>Master's degree</b></div>
+                      <p class="educations__text">2022 - Minsk state linguistic university, communicative management, intercultural relations</p>
+                  </div>
+                  <div class="bachelors degree">
+                      <div class="degree"><b>Bachelor's degree</b></div>
+                      <p class="educations__text">2021 - Minsk state linguistic university, foreign languages (English and German), foreign literature</p>
+                  </div>
+              </section>
+              <section class="courses">
+                  <h2 class="courses-title">Courses</h2>
+                  <ul class="courses-info">
+                      <li>Computer Science Basics</li>
+                      <li>Version Control with Git</li>
+                      <li>Software Development Methodologies</li>
+                  </ul>
+              </section>
+              <section class="languages">
+                  <h2 class="languages-title">Languages</h2>
+                  <ul class="languages-info">
+                      <li><b>Russian</b>: native speaker</li>
+                      <li><b>English</b>: advanced</li>
+                      <li><b>German</b>: pre-intermediate</li>
+                  </ul>
+              </section>
+          </div>
+          <div class="container-main">
+              <section class="about">
+                  <h2 class="about-title">About me</h2>
+                  <p>I am creative and sociable. I do photography in my spare time, I know how to use Photoshop. I am always energetic when it comes to work so I am ready to learn new skills and absorb new information quickly.</p>
+                  <p>The main reason i am apllying for the position of Junior Frond-end Developer is that this job will satisfy my need for creativity. The front end is the part where you see the result of your work, it is connected with visual aspects. I am a visualizer so this position suits me best. I am certain that being a part of your company would be an exceptional opportunity for me to grow both professionally and personally.</p>
+                  <p>As i have mentioned before, i have no experience in programming. But i am eager to absorb the information and produce quality work.</p>
+                  <p>I do understand that it is risky to choose a person without any experience. I can only promise you to do my best so that both of us benefit from our collaboration.</p>
+              </section>
+              <section class="skills">
+                  <h2 class="skills-title">Skills</h2>
+                  <ul class="skills-info">
+                      <li>CSS</li>
+                      <li>HTML</li>
+                      <li>Git</li>
+                  </ul>
+              </section>
+              <section class="code">
+                  <h2 class="code-title">Code example</h2>
+                  <pre class="code__sample">
+                      <code>
+                          function multiply (a, b) {
+                          return a * b;
+                          }
+                      </code>
+                  </pre>
+              </section>
+              <section class="projects">
+                  <h2 class="projects-title">My project</h2>
+                  <p class="link__to__project"><a href="https://renatkaa.github.io/rsschool-cv/cv" class="link__cv">Project “CV”</a></p>
+              </section>
+          </div>
+      </main>
+      <footer class="footer">
+          <div class="footer__info">
+              <div class="footer__git">
+                  <a href="https://github.com/Renatkaa" class="footer__github">GIT</a>
+              </div>
+              <div class="footer__info">
+                <div class="footer__text">Made in <img src="assets/svg/rs_school_js.svg" class="footer__image" alt="RS logo"> <a href="https://rs.school/js/" class="footer__link">link to the course</a>2022</div>
+             </div>				
+          </div>
+      </footer>
+    </div>
 </body>
 </html>
